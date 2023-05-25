@@ -180,7 +180,7 @@ void Estructuras::derecha(int &x){
         x=-2;
       if((x+2)==13)
         x=-2;
-    }
+}
 
 
   
