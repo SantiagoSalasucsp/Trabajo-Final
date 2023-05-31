@@ -10,12 +10,13 @@ public:
 
 
   Estructuras(string* ,int=12);
+  //virtual ~Estructuras()=default;
 
   void derecha(int&);
   void tono (int&);
   void semitono(int&);
 
-  virtual void print()=0;
+  virtual void print()=0;  //virtual pura 
   
 protected:
 
@@ -25,18 +26,18 @@ protected:
 
   int tam=11;
 
-  int Do=0;
-  int Reb=1;
-  int Re=2;
-  int Mib=3;
-  int Mi=4;
-  int Fa=5;
-  int Solb=6;
-  int Sol=7;
-  int Lab=8;
-  int La=9;
-  int Sib=10;
-  int Si=11;
+  int Do;
+  int Reb;
+  int Re;
+  int Mib;
+  int Mi;
+  int Fa;
+  int Solb;
+  int Sol;
+  int Lab;
+  int La;
+  int Sib;
+  int Si;
 
 
 };

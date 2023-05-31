@@ -228,8 +228,8 @@ int main(){
 
     string nota[12]={"Do","Do#/Reb","Re","Re#/Mib","Mi","Fa","Fa#/Solb","Sol","Sol#/Lab","La","La#/Sib","Si"};
 
-    EscalaMayor Do_(nota,Do);
-    Do_.Print();
+    //EscalaMayor Do_(nota,Do);
+    //Do_.Print();
 
 
 
@@ -327,18 +327,10 @@ int main(){
     vec.push_back(pun33);
     vec.push_back(pun34);
 
+
+
+
+
     
     
-
-
-
-
-
-
-
-
-
-
-
-
 }
