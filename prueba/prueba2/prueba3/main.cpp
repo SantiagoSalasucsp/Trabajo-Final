@@ -12,7 +12,7 @@ class Sonido {
     
   public:
     
-    virtual void getSonido (void) =0;
+    virtual void getSonido () =0;
     
 };
 
