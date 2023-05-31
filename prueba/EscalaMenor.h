@@ -11,7 +11,7 @@ class EscalaMenor : public Estructuras {
     public:
         EscalaMenor(string*, int=0, int=0);
 
-        void Print();
+        virtual void Print();
 
        
     

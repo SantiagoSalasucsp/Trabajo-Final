@@ -10,12 +10,13 @@ public:
 
 
   Estructuras(string* ,int=12);
+  virtual ~Estructuras()=default;
 
   void derecha(int&);
   void tono (int&);
   void semitono(int&);
 
-  void print();
+  virtual void print()=0;  //virtual pura 
   
 protected:
 
