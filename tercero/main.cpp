@@ -1,10 +1,11 @@
-#include "EscalaMayor.h"
 #include "Estructura.h"
+#include "EscalaMayor.h"
 #include <iostream>
 #include <windows.h>
-//#include "Sonido.h"
-//#include "Do1.h"
-
+#include "Sonido.h"
+#include "Do1.h"
+#include "Re1.h"
+#include <vector>
 
 
 using namespace std;
@@ -46,14 +47,27 @@ int main(){
 
 
 
-    /*Do1 Do1;
+    Do1 f;
+    Re1 g;
     
 
+    Sonido*pun12=&g;
+    Sonido*pun11=&f;
 
-    Sonido*pun11=&Do1;
+    f.getSonido();
+    pun11->getSonido();
+
+    vector<Sonido*> vec;
+
+    vec.push_back(pun11);
+    vec.push_back(pun12);
+
+    for(int x=0;x<=1;x++){
+
+    vec[x]->getSonido();
+    }
+
     
-
-    */
 
 
 
