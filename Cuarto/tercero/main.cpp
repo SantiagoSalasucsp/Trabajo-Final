@@ -75,6 +75,7 @@ int main(){
     La2 La2;
     Sib2 Sib2;
     Si2 Si2;
+    Do3 Do3;
 
 
 
@@ -108,6 +109,7 @@ int main(){
     Sonido*pun22=&La2;
     Sonido*pun23=&Sib2; 
     Sonido*pun24=&Si2;
+    Sonido*pun25=&Do3;
 
 
 
@@ -139,6 +141,7 @@ int main(){
     vec.push_back(pun22);
     vec.push_back(pun23);
     vec.push_back(pun24);
+    vec.push_back(pun25);
 
     
 
