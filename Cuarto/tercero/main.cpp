@@ -120,6 +120,7 @@ int main(){
     vec.push_back(pun3);
     vec.push_back(pun4);
     vec.push_back(pun5);
+    vec.push_back(pun6);
     vec.push_back(pun7);
     vec.push_back(pun8);
     vec.push_back(pun9);
