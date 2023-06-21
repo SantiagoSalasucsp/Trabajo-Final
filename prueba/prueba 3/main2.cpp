@@ -1,4 +1,4 @@
-# include <fstream >
+#include <fstream>
 #include <string>
 
 using namespace std ;
@@ -6,14 +6,19 @@ using namespace std ;
 int main () {
     string y=("Do,blanca");
 
-    ifstream source (" partitura . txt ");
-    ofstream destination ( " partitura . txt ");
-    int x=2;
+    ifstream source ("archivo1.txt");
+    ofstream destination ( "archivo2.txt");
+
+    int x;
+
     source >> x; 
-    source >> y;
-    source . close (); 
+    //source >> y;
+    
+    source.close (); 
+    destination << x << '\n';
+
     destination << x;
-    destination <<y;
+    //destination <<y;
      
     return 0;
 }
