@@ -7,8 +7,8 @@ int main(){
 
 
 
-ifstream source("source-trabajo1.txt");
-ofstream destination ("dest-trabajo1.txt ");
+ifstream source("trabajo1.txt");
+ofstream destination ("trabajo1.txt ");
 int x;
 
 source >> x;
