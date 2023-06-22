@@ -6,18 +6,21 @@ using namespace std ;
 int main () {
  
 
-    ifstream leer ("archivo1.txt");
+    ifstream leer ("archivo3.txt");
     ofstream escribir ( "archivo2.txt");
 
     //int x;
     string y;
-    leer >> y; 
+    
+    getline(leer,y);
+    //leer >> y;
+
 
     
     leer.close (); 
     escribir << y << '\n';
 
-    escribir << y;
+    //escribir << y;
 
     cout<<y;
 
