@@ -11,18 +11,22 @@ int main () {
 
     //int x;
     string y;
+    string x;
     
     getline(leer,y);
+    getline(leer,x);
     //leer >> y;
 
-
+    //cout<<y;
     
     leer.close (); 
     escribir << y << '\n';
+    escribir<<x<<endl;
 
     //escribir << y;
 
     cout<<y;
+    cout<<x;
 
      
     return 0;
