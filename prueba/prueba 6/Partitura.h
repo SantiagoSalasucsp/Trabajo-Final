@@ -19,9 +19,9 @@ class Partitura{
     private:
 
         int nota;
-        string figura;
+        std::string figura;
 
-        vector <string> tokens;
+        std::vector <std::string> tokens;
         
 
     int Do=0;
