@@ -9,10 +9,10 @@ using namespace std;
 
 Partitura::Partitura(){
 
-}
 
-void Partitura::tocar(){
-    ifstream leer ("cancion.txt");
+ifstream leer ("cancion.txt");
+
+    
 
 
     for(int y=2; y<=1;y++){
@@ -32,6 +32,21 @@ void Partitura::tocar(){
         tokens.push_back(intermediate);
     }
 
+
+
+
+
+
+
+    
+
+}
+}
+
+void Partitura::tocar(){
+
+    for(int u=0; u<=tokens.size();u++){
+        cout<<tokens[u]<<endl;
     }
 
 
@@ -39,4 +54,12 @@ void Partitura::tocar(){
     
 
 
-}
+    }
+
+  
+
+
+
+    
+
+

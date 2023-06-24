@@ -8,6 +8,8 @@
 #include <bits/stdc++.h>
 
 
+using namespace std;
+
 class Partitura{
 
 
@@ -19,9 +21,9 @@ class Partitura{
     private:
 
         int nota;
-        std::string figura;
+        string figura;
 
-        std::vector <std::string> tokens;
+        vector <string> tokens;
         
 
     int Do=0;
