@@ -8,40 +8,34 @@
 using namespace std;
 
 Partitura::Partitura(){
+    int y;
 
+    ifstream leer ("cancion.txt");
 
-ifstream leer ("cancion.txt");
+    while(y<=1){
+
 
     
 
+        //ifstream leer ("cancion.txt");
 
-    for(int y=2; y<=1;y++){
+        string x;
+        getline(leer,x);
 
-    
+        string intermediate;
+        stringstream check1(x);
+            
+        while(getline(check1, intermediate, ' '))
+        {
+            tokens.push_back(intermediate);
+        }
+    y++;
 
-    string x;
-    getline(leer,x);
-
-    string intermediate;
-
-    stringstream check1(x);
-
-
-    while(getline(check1, intermediate, ' '))
-    {
-        tokens.push_back(intermediate);
+        
     }
-
-
-
-
-
-
-
-    
-
+    leer.close ();
 }
-}
+
 
 void Partitura::tocar(){
 

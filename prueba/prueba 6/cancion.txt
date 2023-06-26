@@ -1,2 +1,2 @@
-Do ,blanca
-Re ,negra
+Do blanca
+Re negra
